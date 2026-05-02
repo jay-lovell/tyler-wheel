@@ -1,0 +1,19 @@
+{
+  "name": "tyler-wheel",
+  "version": "1.0.0",
+  "description": "The Wheel of Fun and the Wheel of Meals!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/server.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^12.9.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.4.1"
+  }
+}
